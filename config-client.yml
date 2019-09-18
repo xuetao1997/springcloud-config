@@ -18,10 +18,10 @@ server:
   port: 6002
 spring:
   profiles: test
-    application:
-      name: config-client-test
-eureka:
-  client:
-    service-url:
-      defaultZone: http://yys.server1.com:1001/eureka/
+  application:
+    name: config-client-test
+  eureka:
+    client:
+      service-url:
+        defaultZone: http://yys.server1.com:1001/eureka/
     
