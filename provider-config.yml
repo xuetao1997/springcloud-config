@@ -1,0 +1,10 @@
+spring:
+  profiles:
+    active:
+      - dev
+---
+content: dev content 刷1
+spring:
+  profiles: dev
+  application:
+    name: hello-service
